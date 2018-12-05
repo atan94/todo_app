@@ -8,7 +8,6 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
       <Header textIwant={'YOOOO'} />
-      <Header textIwant={'EYYYY'} />
         <Button 
           title={'Hello'} 
           color='green' 
@@ -27,6 +26,7 @@ export default class App extends React.Component {
           color='red' 
           onPress={() => { console.log('bye'); }}
         />
+      <Header textIwant={'LOLOL'} />  
       </View>
     );
   }

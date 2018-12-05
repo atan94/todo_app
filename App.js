@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { Avatar } from 'react-native-elements';
+import Header from './components/header';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      <Header textIwant={'YOOOO'} />
+      <Header textIwant={'EYYYY'} />
         <Button 
           title={'Hello'} 
           color='green' 

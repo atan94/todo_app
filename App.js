@@ -52,8 +52,8 @@ class App extends React.Component {
 }
 
 const AppNavigator = createStackNavigator({
-  TodoScreen: Todo,
   Home: App,
+  TodoScreen: Todo,
   FlexboxScreen: Flexbox
 });
 
